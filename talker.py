@@ -11,7 +11,7 @@ class Talker(object):
         else:
             # speaking not loudly, normal case
             self.msg = phrase
-        print(self.msg)
+            print(self.msg)
 
     def yell(self, phrase):
         print(phrase.upper())
